@@ -10,6 +10,9 @@ export default function Home() {
             homeContent="Home Page"
             aboutContent="About Us"
             contactContent="Get in Touch"></Navbar>
+          <pre>
+            <code>{"<Navbar></Navbar>"}</code>
+          </pre>
         </div>
       </main>
     </>

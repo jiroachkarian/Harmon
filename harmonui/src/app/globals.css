@@ -1,14 +1,29 @@
+.bg-prim{
+    background-color: #2b3b2d;
+}
+
+pre{
+    background: #282a36;
+    padding: 1em 2em;
+    color: rgb(2, 255, 137);
+    font-size: 18px;
+    border-radius: 0.5em;
+}
+
 .containers{
+    border: 1px solid rgba(133, 252, 196, 0.425);
     width: 20em;
     max-width: 50em;
     border-radius: 5px;
-    background-color: #ededed;
-     height: 200px;
+    backdrop-filter: blur(5px);
+    height: 200px;
     max-height: 500px;
     padding: 1em;
     resize: both; 
    overflow-x: auto;  
    display: flex;
    align-items: center;
-   flex-direction: row;
+   justify-content: center;
+   flex-direction: column;
+   gap: 2em;
 }

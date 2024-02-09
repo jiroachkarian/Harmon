@@ -1,24 +1,48 @@
 {
   "name": "harmonui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepublishOnly": "npm run build"
   },
+  "files": [
+    "src"
+  ],
   "dependencies": {
+    "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tsconfig/recommended": "^1.0.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
-  }
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
+  },
+  "name": "harmonui",
+  "description": "A seamlessly harmonized CSS and UI framework, aligned with Figma's design tokens, ensuring consistent and efficient design-to-development integration.",
+  "main": "src/page.tsx",
+  "publishConfig": {
+    "access": "public"
+  },
+  "file": [
+    "src/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiroachkarian/Harmon.git"
+  },
+  "author": "JiroAchkarian",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jiroachkarian/Harmon/issues"
+  },
+  "homepage": "https://github.com/jiroachkarian/Harmon#readme"
 }
