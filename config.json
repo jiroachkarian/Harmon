@@ -1,0 +1,69 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "buildPath": "build/scss/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables"
+        }
+      ]
+    },
+
+    "android": {
+      "transformGroup": "android",
+      "buildPath": "build/android/",
+      "files": [
+        {
+          "destination": "font_dimens.xml",
+          "format": "android/fontDimens"
+        },
+        {
+          "destination": "colors.xml",
+          "format": "android/colors"
+        }
+      ]
+    },
+    "compose": {
+      "transformGroup": "compose",
+      "buildPath": "build/compose/",
+      "files": [
+        {
+          "destination": "StyleDictionaryColor.kt",
+          "format": "compose/object",
+          "className": "StyleDictionaryColor",
+          "packageName": "StyleDictionaryColor",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionarySize.kt",
+          "format": "compose/object",
+          "className": "StyleDictionarySize",
+          "packageName": "StyleDictionarySize",
+          "type": "float",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -15,7 +15,8 @@
   "dependencies": {
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sass": "^1.70.0"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.3",
@@ -26,7 +27,6 @@
     "eslint-config-next": "14.1.0",
     "typescript": "^5"
   },
-  "name": "harmonui",
   "description": "A seamlessly harmonized CSS and UI framework, aligned with Figma's design tokens, ensuring consistent and efficient design-to-development integration.",
   "main": "src/page.tsx",
   "publishConfig": {
