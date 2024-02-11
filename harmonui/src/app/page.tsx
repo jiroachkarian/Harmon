@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <>
       <main>
-        <h1>KAK</h1>
+        <h1 style={{ color: "white" }}>Components</h1>
         <div className="containers">
           <Navbar
             logoContent="LogoZ"
