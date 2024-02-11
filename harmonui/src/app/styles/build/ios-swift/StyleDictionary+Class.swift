@@ -4,13 +4,13 @@
 //
 
 // Do not edit directly
-// Generated on Sat, 10 Feb 2024 19:01:42 GMT
+// Generated on Sun, 11 Feb 2024 20:13:32 GMT
 
 
 import UIKit
 
 public class StyleDictionaryClass {
-    public static let collection1Mode1Primary = #42cb50
+    public static let collection1Mode1Primary = #99330b
     public static let collection1Mode1Secondary = #3f5041
     public static let colorBaseGrayDark = UIColor(red: 0.067, green: 0.067, blue: 0.067, alpha: 1)
     public static let colorBaseGrayLight = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
