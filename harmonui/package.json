@@ -1,9 +1,9 @@
 {
   "name": "harmonui",
-  "version": "0.1.1",
+  "version": "0.1.13",
   "private": false,
   "scripts": {
-    "preinstall": "npm install --save-dev -g style-dictionary",
+    "postinstall": "npm i -g style-dictionary",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
